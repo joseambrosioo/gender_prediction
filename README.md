@@ -3,7 +3,25 @@
 This project was proudly presented at the **2024 Kansas Capitol Graduate Research Summit**, earning recognition from the **State of Kansas**, the **Kansas Governor**, policymakers, and **Fort Hays State University** for its significant contribution to research and innovation.
 
 ## Project Overview
-Developed a **Convolutional Neural Network (CNN)** to classify a person's gender from facial images, achieving an impressive **91% validation accuracy** using a dataset of over **23,000 images**.
+Developed a **Convolutional Neural Network (CNN)** to classify a person's gender from facial images, achieving an impressive **91% validation accuracy** using a dataset of over **23,000 images**. The CNN model was trained to recognize and distinguish between male and female faces with high precision, and the results were validated against a separate test set.
+
+### Key Features:
+- **Deep Learning Architecture**: Utilizes CNN for image recognition, which is highly effective in identifying facial features for gender classification.
+- **High Accuracy**: Achieved **91% validation accuracy** on a large dataset, demonstrating the model’s robustness and reliability.
+- **Scalability**: The model can be extended to classify other facial attributes or be integrated into larger facial recognition systems.
+
+## Dataset
+The dataset consists of over **23,000 facial images** annotated with gender labels. These images were sourced from various public datasets, ensuring diversity in terms of ethnicity, age, and lighting conditions, which contributed to the model's high generalization ability.
+
+- **Dataset Characteristics**:
+  - Number of images: **23,000+**
+  - Image dimensions: **64x64 pixels** (resized)
+  - Labeling: **Male** and **Female** categories
+  - Preprocessing steps: Normalization, augmentation, and grayscale conversion to improve model robustness.
+
+**Visualization**:  
+![Percentage of Men and Women in Dataset](![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74))  
+*Distribution of Gender in the Dataset: 50% Male, 50% Female* 
 
 ## Applications
 This research has potential applications in:  
