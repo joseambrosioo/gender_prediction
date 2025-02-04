@@ -20,7 +20,10 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
   - Preprocessing steps: Normalization, augmentation, and grayscale conversion to improve model robustness.
 
 **Visualization**:  
-![Percentage of Men and Women in Dataset] ![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74) 
+![Percentage of Men and Women in Dataset] 
+
+![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
+
 *Distribution of Gender in the Dataset: 50% Male, 50% Female* 
 
 ## Applications
