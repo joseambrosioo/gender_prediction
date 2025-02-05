@@ -15,7 +15,7 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
 
 - **Dataset Characteristics**:
   - Number of images: **23,000+**
-  - Image dimensions: **64x64 pixels** (resized)
+  - Image dimensions: **200x200 pixels** (resized)
   - Labeling: **Male** and **Female** categories
   - Preprocessing steps: Normalization, augmentation, and grayscale conversion to improve model robustness.
 
@@ -25,6 +25,29 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
 
 *Distribution of Gender in the Dataset: 50% Male, 50% Female* 
+
+## CNN Model Architecture
+The model follows a **standard CNN architecture**, featuring multiple layers for feature extraction and classification:
+
+1. **Input Layer**: Accepts image data (resized to 64x64 pixels).
+2. **Convolutional Layers**: Extract features such as edges, textures, and facial landmarks.
+3. **Activation Functions**: Leaky ReLU to introduce non-linearity.
+4. **Pooling Layers**: Reduce dimensionality and capture the most important features.
+5. **Fully Connected Layers**: Classify images into gender categories based on extracted features.
+6. **Output Layer**: A sigmoid activation function for binary classification (Male/Female).
+
+**CNN Model Steps**:
+- Step 1: Load and preprocess the dataset.
+- Step 2: Define and compile the CNN model.
+- Step 3: Train the model using the training dataset.
+- Step 4: Validate and test the model for accuracy and precision.
+- Step 5: Evaluate performance using various metrics such as precision, recall, and F1-score.
+
+![CNN Architecture]
+
+![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
+
+![03](https://github.com/user-attachments/assets/b8bed775-ffcd-4adf-b5da-988fb4ef4597)
 
 ## Applications
 This research has potential applications in:  
