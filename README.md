@@ -10,15 +10,6 @@ Developed a **Convolutional Neural Network (CNN)** to classify a person's gender
 - **High Accuracy**: Achieved **91% validation accuracy** on a large dataset, demonstrating the model’s robustness and reliability.
 - **Scalability**: The model can be extended to classify other facial attributes or be integrated into larger facial recognition systems.
 
-## Dataset
-The dataset consists of over **23,000 facial images** annotated with gender labels. These images were sourced from various public datasets, ensuring diversity in terms of ethnicity, age, and lighting conditions, which contributed to the model's high generalization ability.
-
-- **Dataset Characteristics**:
-  - Number of images: **23,000+**
-  - Image dimensions: **200x200 pixels** (resized)
-  - Labeling: **Male** and **Female** categories
-  - Preprocessing steps: Normalization, augmentation, and grayscale conversion to improve model robustness.
-
 ## Applications
 This research has potential applications in:  
 - **Demographic Analysis**: Gain insights into population demographics by understanding gender distribution.
@@ -27,7 +18,22 @@ This research has potential applications in:
 - **Personalized User Experiences**: Tailor services such as online recommendations and customizations based on gender.
 - **Medical Diagnostics**: Support healthcare assessments, providing tools to analyze patients' gender in clinical studies.
 
-**Visualization**:  
+## Dataset
+The dataset consists of over **23,000 facial images** annotated with gender labels. These images were sourced from various public datasets, ensuring diversity in terms of ethnicity, age, and lighting conditions, which contributed to the model's high generalization ability.
+
+- **Dataset Characteristics**:
+  - Number of images: **23,000+**
+  - Image dimensions: **200x200 pixels** (resized)
+  - Labeling: **Male (0)** and **Female (1)** categories
+  - Preprocessing steps: Normalization (standardized pixel values), augmentation (increased dataset variety), and grayscale conversion (reduced complexity) to improve model robustness.
+
+![Sample of the Dataset] 
+
+![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
+
+*Sample of the Dataset* 
+
+- **Visualization**:  
 ![Percentage of Men and Women in Dataset] 
 
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
@@ -140,5 +146,3 @@ This CNN-based gender classification model achieved a high validation accuracy o
 
 ## Explore the Repository
 Explore the repository to learn more about the methodology, code, and results. Contributions and feedback are welcome!
-
-![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
