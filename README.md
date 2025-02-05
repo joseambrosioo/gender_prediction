@@ -29,7 +29,7 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
 ## CNN Model Architecture
 The model follows a **standard CNN architecture**, featuring multiple layers for feature extraction and classification:
 
-1. **Input Layer**: Accepts image data (resized to 64x64 pixels).
+1. **Input Layer**: Accepts image data (resized to 200x200 pixels).
 2. **Convolutional Layers**: Extract features such as edges, textures, and facial landmarks.
 3. **Activation Functions**: Leaky ReLU to introduce non-linearity.
 4. **Pooling Layers**: Reduce dimensionality and capture the most important features.
@@ -55,13 +55,66 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 
 *CNN Model Steps* 
 
+## Training Process
+The model was trained for **15 epochs**, with performance evaluated using a validation set. The training process included tuning hyperparameters such as learning rate, batch size, and the number of layers to optimize performance.
+
+**Training Process Visualization**:  
+![Epochs and Training Accuracy]
+
+![04](https://github.com/user-attachments/assets/bbdd0da3-b905-4951-aba3-d4712718017f)
+
+*Graph showing accuracy improvement over epochs.*
+
+## Test Predictions
+The model’s performance was evaluated on a separate test set, with predictions compared to the actual labels to assess accuracy.
+
+![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a)
+
+![07](https://github.com/user-attachments/assets/6146f90c-f789-4552-9cf1-72649a813789)
+
+![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
+
+![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
+
+![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
+
+- **Test Results**:
+    - **Test Result 1**:
+      - **Actual Gender**: Male
+      - **Predicted Gender**: Male  
+      ![Test Prediction 1](![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a))  
+
+    - **Test Result 2**:
+      - **Actual Gender**: Female
+      - **Predicted Gender**: Female  
+      ![Test Prediction 2](path-to-test-prediction2-image)  
+
+    - **Test Result 3**:
+      - **Actual Gender**: Male
+      - **Predicted Gender**: Female  
+      ![Test Prediction 3](path-to-test-prediction3-image)  
+
+    - **Test Result 4**:
+      - **Actual Gender**: Female
+      - **Predicted Gender**: Male  
+      ![Test Prediction 4](path-to-test-prediction4-image)  
+
+    - **Test Result 5**:
+      - **Actual Gender**: Male
+      - **Predicted Gender**: Male  
+      ![Test Prediction 5](path-to-test-prediction5-image)  
+
+    - **Accuracy of Test Set**: **91%**
+
+    *Example of test set predictions where the model classifies gender accurately.*
+
 ## Applications
 This research has potential applications in:  
-- **Demographic Analysis**: Insights into population demographics.  
-- **Targeted Advertising**: Delivering personalized ad content.  
-- **Security Enhancements**: Improved surveillance and identity verification.  
-- **Personalized User Experiences**: Tailored services based on user profiles.  
-- **Medical Diagnostics**: Supporting healthcare assessments.
+- **Demographic Analysis**: Gain insights into population demographics by understanding gender distribution.
+- **Targeted Advertising**: Deliver personalized ad content based on user gender classification.
+- **Security Enhancements**: Improve surveillance systems by adding gender classification to identity verification processes.
+- **Personalized User Experiences**: Tailor services such as online recommendations and customizations based on gender.
+- **Medical Diagnostics**: Support healthcare assessments, providing tools to analyze patients' gender in clinical studies.
 
 ![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
 
