@@ -96,19 +96,19 @@ The model’s performance was evaluated on a separate test set, with predictions
 
     - **Test Result 3**:
       - **Actual Gender**: Male
-      - **Predicted Gender**: Female  
+      - **Predicted Gender**: Male  
 
       ![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
 
     - **Test Result 4**:
       - **Actual Gender**: Female
-      - **Predicted Gender**: Male  
+      - **Predicted Gender**: Female  
 
       ![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
 
     - **Test Result 5**:
-      - **Actual Gender**: Male
-      - **Predicted Gender**: Male  
+      - **Actual Gender**: Female
+      - **Predicted Gender**: Female  
 
       ![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
 
