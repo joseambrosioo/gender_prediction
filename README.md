@@ -47,7 +47,13 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 
 ![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
 
+*CNN Model Architecture* 
+
+![CNN Architecture]
+
 ![03](https://github.com/user-attachments/assets/b8bed775-ffcd-4adf-b5da-988fb4ef4597)
+
+*CNN Model Steps* 
 
 ## Applications
 This research has potential applications in:  
