@@ -25,20 +25,18 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
   - Number of images: **23,000+**
   - Image dimensions: **200x200 pixels** (resized)
   - Labeling: **Male (0)** and **Female (1)** categories
+  - Age Rage: **0 to 116 years**
   - Preprocessing steps: Normalization (standardized pixel values), augmentation (increased dataset variety), and grayscale conversion (reduced complexity) to improve model robustness.
-
-![Sample of the Dataset] 
 
 ![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
 
 *Sample of the Dataset* 
 
 - **Visualization**:  
-![Percentage of Men and Women in Dataset] 
 
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
 
-*Distribution of Gender in the Dataset: 50% Male, 50% Female* 
+*Distribution of Gender in the Dataset: 52.3% Male, 47.7% Female* 
 
 ## Methodology
 The CNN model was trained on a large dataset of facial images and utilized the following steps:
