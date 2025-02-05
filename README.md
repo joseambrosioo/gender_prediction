@@ -19,6 +19,16 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
   - Labeling: **Male** and **Female** categories
   - Preprocessing steps: Normalization, augmentation, and grayscale conversion to improve model robustness.
 
+## Applications
+This research has potential applications in:  
+- **Demographic Analysis**: Gain insights into population demographics by understanding gender distribution.
+- **Targeted Advertising**: Deliver personalized ad content based on user gender classification.
+- **Security Enhancements**: Improve surveillance systems by adding gender classification to identity verification processes.
+- **Personalized User Experiences**: Tailor services such as online recommendations and customizations based on gender.
+- **Medical Diagnostics**: Support healthcare assessments, providing tools to analyze patients' gender in clinical studies.
+
+---
+
 **Visualization**:  
 ![Percentage of Men and Women in Dataset] 
 
@@ -26,7 +36,13 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
 
 *Distribution of Gender in the Dataset: 50% Male, 50% Female* 
 
-## CNN Model Architecture
+## Methodology
+The CNN model was trained on a large dataset of facial images and utilized the following steps:
+
+### Image Preprocessing
+To ensure consistent input to the model, the images were split into smaller chunks of 200x200 pixels to improve model performance and reduce computational load.
+
+### CNN Model Architecture
 The model follows a **standard CNN architecture**, featuring multiple layers for feature extraction and classification:
 
 1. **Input Layer**: Accepts image data (resized to 200x200 pixels).
@@ -36,6 +52,12 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 5. **Fully Connected Layers**: Classify images into gender categories based on extracted features.
 6. **Output Layer**: A sigmoid activation function for binary classification (Male/Female).
 
+![CNN Model Architecture]
+
+![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
+
+*CNN Model Architecture* 
+
 **CNN Model Steps**:
 - Step 1: Load and preprocess the dataset.
 - Step 2: Define and compile the CNN model.
@@ -43,19 +65,13 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 - Step 4: Validate and test the model for accuracy and precision.
 - Step 5: Evaluate performance using various metrics such as precision, recall, and F1-score.
 
-![CNN Architecture]
-
-![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
-
-*CNN Model Architecture* 
-
-![CNN Architecture]
+![CNN Model Steps]
 
 ![03](https://github.com/user-attachments/assets/b8bed775-ffcd-4adf-b5da-988fb4ef4597)
 
 *CNN Model Steps* 
 
-## Training Process
+### Training Process
 The model was trained for **15 epochs**, with performance evaluated using a validation set. The training process included tuning hyperparameters such as learning rate, batch size, and the number of layers to optimize performance.
 
 **Training Process Visualization**:  
@@ -68,76 +84,66 @@ The model was trained for **15 epochs**, with performance evaluated using a vali
 ## Test Predictions
 The model’s performance was evaluated on a separate test set, with predictions compared to the actual labels to assess accuracy.
 
-![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a)
-
-![07](https://github.com/user-attachments/assets/6146f90c-f789-4552-9cf1-72649a813789)
-
-![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
-
-![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
-
-![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
-
 - **Test Results**:
     - **Test Result 1**:
-      - **Actual Gender**: Male
-      - **Predicted Gender**: Male  
-      ![Test Prediction 1](![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a))  
+      - **Actual Gender**: Female
+      - **Predicted Gender**: Female  
+      ![Test Prediction 1]
+
+      ![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a)  
 
     - **Test Result 2**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
-      ![Test Prediction 2](path-to-test-prediction2-image)  
+      ![Test Prediction 2]
+
+      ![07](https://github.com/user-attachments/assets/6146f90c-f789-4552-9cf1-72649a813789)
 
     - **Test Result 3**:
       - **Actual Gender**: Male
       - **Predicted Gender**: Female  
-      ![Test Prediction 3](path-to-test-prediction3-image)  
+      ![Test Prediction 3]
+
+      ![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
 
     - **Test Result 4**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Male  
-      ![Test Prediction 4](path-to-test-prediction4-image)  
+      ![Test Prediction 4]
+
+      ![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
 
     - **Test Result 5**:
       - **Actual Gender**: Male
       - **Predicted Gender**: Male  
-      ![Test Prediction 5](path-to-test-prediction5-image)  
+      ![Test Prediction 5]
 
-    - **Accuracy of Test Set**: **91%**
+      ![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
+
+    - **Accuracy of Test Set**: **100%**
 
     *Example of test set predictions where the model classifies gender accurately.*
 
-## Applications
-This research has potential applications in:  
-- **Demographic Analysis**: Gain insights into population demographics by understanding gender distribution.
-- **Targeted Advertising**: Deliver personalized ad content based on user gender classification.
-- **Security Enhancements**: Improve surveillance systems by adding gender classification to identity verification processes.
-- **Personalized User Experiences**: Tailor services such as online recommendations and customizations based on gender.
-- **Medical Diagnostics**: Support healthcare assessments, providing tools to analyze patients' gender in clinical studies.
+## Code Snippets
+Below are key sections of the code used in this project:
 
-![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
-
-![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
-
-![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
-
-![03](https://github.com/user-attachments/assets/b8bed775-ffcd-4adf-b5da-988fb4ef4597)
-
-![04](https://github.com/user-attachments/assets/bbdd0da3-b905-4951-aba3-d4712718017f)
-
-![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a)
-
-![07](https://github.com/user-attachments/assets/6146f90c-f789-4552-9cf1-72649a813789)
-
-![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
-
-![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
-
-![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
-
+1. **Data Preprocessing**:
 ![11](https://github.com/user-attachments/assets/f3cdf9d6-7e92-4523-bf4b-a603b4cdf833)
 
+2. **CNN Model Architecture**:
 ![12](https://github.com/user-attachments/assets/bd4bd766-520d-4824-ae4d-dc5f8c7200dd)
 
+3. **Model Prediction**:
+
 ![05](https://github.com/user-attachments/assets/40fbf849-917c-4ab3-91a0-ded2399df663)
+
+
+## Conclusion
+This CNN-based gender classification model achieved a high validation accuracy of 91%, demonstrating its potential for real-world applications such as demographic analysis, security, and personalized services. The project highlights the effectiveness of CNNs in handling large image datasets for accurate predictions.
+
+---
+
+## Explore the Repository
+Explore the repository to learn more about the methodology, code, and results. Contributions and feedback are welcome!
+
+![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
