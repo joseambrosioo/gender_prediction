@@ -56,8 +56,6 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 5. **Fully Connected Layers**: Classify images into gender categories based on extracted features.
 6. **Output Layer**: A sigmoid activation function for binary classification (Male/Female).
 
-![CNN Model Architecture]
-
 ![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
 
 *CNN Model Architecture* 
@@ -69,8 +67,6 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 - Step 4: Validate and test the model for accuracy and precision.
 - Step 5: Evaluate performance using various metrics such as precision, recall, and F1-score.
 
-![CNN Model Steps]
-
 ![03](https://github.com/user-attachments/assets/b8bed775-ffcd-4adf-b5da-988fb4ef4597)
 
 *CNN Model Steps* 
@@ -79,7 +75,6 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 The model was trained for **15 epochs**, with performance evaluated using a validation set. The training process included tuning hyperparameters such as learning rate, batch size, and the number of layers to optimize performance.
 
 **Training Process Visualization**:  
-![Epochs and Training Accuracy]
 
 ![04](https://github.com/user-attachments/assets/bbdd0da3-b905-4951-aba3-d4712718017f)
 
@@ -92,35 +87,30 @@ The model’s performance was evaluated on a separate test set, with predictions
     - **Test Result 1**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
-      ![Test Prediction 1]
-
+ 
       ![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a)  
 
     - **Test Result 2**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
-      ![Test Prediction 2]
 
       ![07](https://github.com/user-attachments/assets/6146f90c-f789-4552-9cf1-72649a813789)
 
     - **Test Result 3**:
       - **Actual Gender**: Male
       - **Predicted Gender**: Female  
-      ![Test Prediction 3]
 
       ![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
 
     - **Test Result 4**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Male  
-      ![Test Prediction 4]
 
       ![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
 
     - **Test Result 5**:
       - **Actual Gender**: Male
       - **Predicted Gender**: Male  
-      ![Test Prediction 5]
 
       ![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
 
