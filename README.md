@@ -27,8 +27,6 @@ This research has potential applications in:
 - **Personalized User Experiences**: Tailor services such as online recommendations and customizations based on gender.
 - **Medical Diagnostics**: Support healthcare assessments, providing tools to analyze patients' gender in clinical studies.
 
----
-
 **Visualization**:  
 ![Percentage of Men and Women in Dataset] 
 
@@ -137,11 +135,8 @@ Below are key sections of the code used in this project:
 
 ![05](https://github.com/user-attachments/assets/40fbf849-917c-4ab3-91a0-ded2399df663)
 
-
 ## Conclusion
 This CNN-based gender classification model achieved a high validation accuracy of 91%, demonstrating its potential for real-world applications such as demographic analysis, security, and personalized services. The project highlights the effectiveness of CNNs in handling large image datasets for accurate predictions.
-
----
 
 ## Explore the Repository
 Explore the repository to learn more about the methodology, code, and results. Contributions and feedback are welcome!
