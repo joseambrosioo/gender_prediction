@@ -32,6 +32,10 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
 
 *Sample of the Dataset* 
 
+![13](https://github.com/user-attachments/assets/b9b9e41a-f584-463e-a2c9-5f5919934f88)
+
+*Sample of the Images in the Dataset* 
+
 - **Visualization**:  
 
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
@@ -77,6 +81,14 @@ The model was trained for **15 epochs**, with performance evaluated using a vali
 ![04](https://github.com/user-attachments/assets/bbdd0da3-b905-4951-aba3-d4712718017f)
 
 *Graph showing accuracy improvement over epochs.*
+
+![14](https://github.com/user-attachments/assets/00f0091f-0bf3-4baf-b7f0-39c1eeca16e8)
+
+*Training-Accuracy Graph*
+
+![15](https://github.com/user-attachments/assets/72b701de-b1e3-45bd-a789-b2418942116b)
+
+*Training-Loss Graph*
 
 ## Test Predictions
 The model’s performance was evaluated on a separate test set, with predictions compared to the actual labels to assess accuracy.
