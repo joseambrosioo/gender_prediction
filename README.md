@@ -18,32 +18,28 @@ This research has potential applications in:
 - **Personalized User Experiences**: Tailor services such as online recommendations and customizations based on gender.
 - **Medical Diagnostics**: Support healthcare assessments, providing tools to analyze patients' gender in clinical studies.
 
-## Dataset
+## Methodology
+The CNN model was trained on a large dataset of facial images and utilized the following steps:
+
+### Sample Characteristics
 The dataset consists of over **23,000 facial images** annotated with gender labels. These images were sourced from various public datasets, ensuring diversity in terms of ethnicity, age, and lighting conditions, which contributed to the model's high generalization ability.
 
-- **Dataset Characteristics**:
+- **Sample Characteristics**:
   - Number of images: **23,000+**
   - Image dimensions: **200x200 pixels** (resized)
   - Labeling: **Male (0)** and **Female (1)** categories
   - Age Rage: **0 to 116 years**
   - Preprocessing steps: Normalization (standardized pixel values), augmentation (increased dataset variety), and grayscale conversion (reduced complexity) to improve model robustness.
 
-![00](https://github.com/user-attachments/assets/415cd011-d384-4715-9c4c-7e06061fed74)
-
-*Sample of the Dataset* 
-
 ![13](https://github.com/user-attachments/assets/b9b9e41a-f584-463e-a2c9-5f5919934f88)
 
-*Sample of the Images in the Dataset* 
+*Figure 1. Sample of the Images in the Dataset* 
 
 - **Visualization**:  
 
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
 
-*Distribution of Gender in the Dataset: 52.3% Male, 47.7% Female* 
-
-## Methodology
-The CNN model was trained on a large dataset of facial images and utilized the following steps:
+*Figure 2. Distribution of Gender in the Dataset: 52.3% Male, 47.7% Female* 
 
 ### Image Preprocessing
 To ensure consistent input to the model, the images were split into smaller chunks of 200x200 pixels to improve model performance and reduce computational load.
@@ -60,7 +56,7 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 
 ![02](https://github.com/user-attachments/assets/d43482d5-fcab-4f8c-909a-a93fe52104d4)
 
-*CNN Model Architecture* 
+*Figure 3. CNN Model Architecture* 
 
 **CNN Model Steps**:
 - Step 1: Load and preprocess the dataset.
@@ -71,7 +67,7 @@ The model follows a **standard CNN architecture**, featuring multiple layers for
 
 ![03](https://github.com/user-attachments/assets/b8bed775-ffcd-4adf-b5da-988fb4ef4597)
 
-*CNN Model Steps* 
+*Figure 4. CNN Model Steps* 
 
 ### Training Process
 The model was trained for **15 epochs**, with performance evaluated using a validation set. The training process included tuning hyperparameters such as learning rate, batch size, and the number of layers to optimize performance.
@@ -80,15 +76,15 @@ The model was trained for **15 epochs**, with performance evaluated using a vali
 
 ![04](https://github.com/user-attachments/assets/bbdd0da3-b905-4951-aba3-d4712718017f)
 
-*Graph showing accuracy improvement over epochs.*
+*Figure 5. Graph showing accuracy improvement over epochs.*
 
 ![14](https://github.com/user-attachments/assets/00f0091f-0bf3-4baf-b7f0-39c1eeca16e8)
 
-*Training-Accuracy Graph*
+*Figure 6. Training-Accuracy Graph*
 
 ![15](https://github.com/user-attachments/assets/72b701de-b1e3-45bd-a789-b2418942116b)
 
-*Training-Loss Graph*
+*Figure 7. Training-Loss Graph*
 
 ## Test Predictions
 The model’s performance was evaluated on a separate test set, with predictions compared to the actual labels to assess accuracy.
@@ -100,11 +96,15 @@ The model’s performance was evaluated on a separate test set, with predictions
  
       ![06](https://github.com/user-attachments/assets/fcfb9eee-e4d4-4326-92bd-fa5997ee914a)  
 
+      *Figure 8. Test Sample 1*
+
     - **Test Result 2**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
 
       ![07](https://github.com/user-attachments/assets/6146f90c-f789-4552-9cf1-72649a813789)
+
+      *Figure 9. Test Sample 2*
 
     - **Test Result 3**:
       - **Actual Gender**: Male
@@ -112,11 +112,15 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       ![08](https://github.com/user-attachments/assets/b2e9e653-c0af-4f6b-a5bc-3273f253282f)
 
+      *Figure 10. Test Sample 3*
+
     - **Test Result 4**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
 
       ![09](https://github.com/user-attachments/assets/aee4455f-f682-457a-b546-105c46cb667c)
+
+      *Figure 11. Test Sample 4*
 
     - **Test Result 5**:
       - **Actual Gender**: Female
@@ -124,9 +128,14 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       ![10](https://github.com/user-attachments/assets/970408c4-22d2-44b1-a561-4a8e820fddfe)
 
+      *Figure 12. Test Sample 5*
+
     - **Accuracy of Test Set**: **100%**
 
     *Example of test set predictions where the model classifies gender accurately.*
+
+## Conclusion
+This CNN-based gender classification model achieved a high validation accuracy of 91%, demonstrating its potential for real-world applications such as demographic analysis, security, and personalized services. The project highlights the effectiveness of CNNs in handling large image datasets for accurate predictions.
 
 ## Code Snippets
 Below are key sections of the code used in this project:
@@ -134,15 +143,18 @@ Below are key sections of the code used in this project:
 1. **Data Preprocessing**:
 ![11](https://github.com/user-attachments/assets/f3cdf9d6-7e92-4523-bf4b-a603b4cdf833)
 
-2. **CNN Model Architecture**:
+*Figure 13. Data Processing Code Snippet*
+
+3. **CNN Model Architecture**:
 ![12](https://github.com/user-attachments/assets/bd4bd766-520d-4824-ae4d-dc5f8c7200dd)
 
-3. **Model Prediction**:
+*Figure 14. CNN Model Architecture Code Snippet*
+
+5. **Model Prediction**:
 
 ![05](https://github.com/user-attachments/assets/40fbf849-917c-4ab3-91a0-ded2399df663)
 
-## Conclusion
-This CNN-based gender classification model achieved a high validation accuracy of 91%, demonstrating its potential for real-world applications such as demographic analysis, security, and personalized services. The project highlights the effectiveness of CNNs in handling large image datasets for accurate predictions.
+*Figure 15. Model Prediction Code Snippet*
 
 ## Explore the Repository
 Explore the repository to learn more about the methodology, code, and results. Contributions and feedback are welcome!
