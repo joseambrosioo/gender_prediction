@@ -149,8 +149,7 @@ Below are key sections of the code used in this project:
 
 *Figure 14. CNN Model Architecture Code Snippet*
 
-3. **Model Prediction**:
-
+3. **Model Prediction**
 ![05](https://github.com/user-attachments/assets/40fbf849-917c-4ab3-91a0-ded2399df663)
 
 *Figure 15. Model Prediction Code Snippet*
