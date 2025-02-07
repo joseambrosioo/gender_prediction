@@ -144,12 +144,12 @@ Below are key sections of the code used in this project:
 
 *Figure 13. Data Processing Code Snippet*
 
-3. **CNN Model Architecture**:
+2. **CNN Model Architecture**:
 ![12](https://github.com/user-attachments/assets/bd4bd766-520d-4824-ae4d-dc5f8c7200dd)
 
 *Figure 14. CNN Model Architecture Code Snippet*
 
-5. **Model Prediction**:
+3. **Model Prediction**:
 
 ![05](https://github.com/user-attachments/assets/40fbf849-917c-4ab3-91a0-ded2399df663)
 
