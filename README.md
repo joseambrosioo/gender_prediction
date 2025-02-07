@@ -28,14 +28,15 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
   - Number of images: **23,000+**
   - Image dimensions: **200x200 pixels** (resized)
   - Labeling: **Male (0)** and **Female (1)** categories
+  - Gender Distribution: **52.3% Male**, **47.7% Female**
   - Age Rage: **0 to 116 years**
   - Preprocessing steps: Normalization (standardized pixel values), augmentation (increased dataset variety), and grayscale conversion (reduced complexity) to improve model robustness.
 
 ![13](https://github.com/user-attachments/assets/b9b9e41a-f584-463e-a2c9-5f5919934f88)
 
-*Figure 1. Sample of the Images in the Dataset* 
+*Figure 1. Sample of Images in the Dataset* 
 
-- **Visualization**:  
+- **Dataset Visualization**:  
 
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
 
@@ -87,10 +88,10 @@ The model was trained for **15 epochs**, with performance evaluated using a vali
 *Figure 7. Training-Loss Graph*
 
 ## Test Predictions
-The model’s performance was evaluated on a separate test set, with predictions compared to the actual labels to assess accuracy.
+The model was evaluated on a separate test set, comparing predicted and actual labels to assess accuracy.
 
 - **Test Results**:
-    - **Test Result 1**:
+    - **Test Sample 1**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
  
@@ -98,7 +99,7 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       *Figure 8. Test Sample 1*
 
-    - **Test Result 2**:
+    - **Test Sample 2**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
 
@@ -106,7 +107,7 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       *Figure 9. Test Sample 2*
 
-    - **Test Result 3**:
+    - **Test Sample 3**:
       - **Actual Gender**: Male
       - **Predicted Gender**: Male  
 
@@ -114,7 +115,7 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       *Figure 10. Test Sample 3*
 
-    - **Test Result 4**:
+    - **Test Sample 4**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
 
@@ -122,7 +123,7 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       *Figure 11. Test Sample 4*
 
-    - **Test Result 5**:
+    - **Test Sample 5**:
       - **Actual Gender**: Female
       - **Predicted Gender**: Female  
 
@@ -130,9 +131,8 @@ The model’s performance was evaluated on a separate test set, with predictions
 
       *Figure 12. Test Sample 5*
 
-    - **Accuracy of Test Set**: **100%**
-
-    *Example of test set predictions where the model classifies gender accurately.*
+    - **Overall Test Set Accuracy**: **100%**
+    The model successfully classified all test samples with 100% accuracy, demonstrating its effectiveness in gender classification.
 
 ## Conclusion
 This CNN-based gender classification model achieved a high validation accuracy of 91%, demonstrating its potential for real-world applications such as demographic analysis, security, and personalized services. The project highlights the effectiveness of CNNs in handling large image datasets for accurate predictions.
