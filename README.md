@@ -132,7 +132,7 @@ The model was evaluated on a separate test set, comparing predicted and actual l
       *Figure 12. Test Sample 5*
 
     - **Overall Test Set Accuracy**: **100%**
-    The model successfully classified all test samples with 100% accuracy, demonstrating its effectiveness in gender classification.
+    *Example of test set predictions where the model classifies gender accurately.*
 
 ## Conclusion
 This CNN-based gender classification model achieved a high validation accuracy of 91%, demonstrating its potential for real-world applications such as demographic analysis, security, and personalized services. The project highlights the effectiveness of CNNs in handling large image datasets for accurate predictions.
