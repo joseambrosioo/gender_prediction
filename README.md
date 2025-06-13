@@ -29,7 +29,7 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
   - Image dimensions: **200x200 pixels** (resized)
   - Labeling: **Male (0)** and **Female (1)** categories
   - Gender Distribution: **52.3% Male**, **47.7% Female**
-  - Age Rage: **0 to 116 years**
+  - Age Range: **0 to 116 years**
   - Preprocessing steps: Normalization (standardized pixel values), augmentation (increased dataset variety), and grayscale conversion (reduced complexity) to improve model robustness.
 
 ![13](https://github.com/user-attachments/assets/b9b9e41a-f584-463e-a2c9-5f5919934f88)
