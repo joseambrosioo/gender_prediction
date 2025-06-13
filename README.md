@@ -40,7 +40,7 @@ The dataset consists of over **23,000 facial images** annotated with gender labe
 
 ![01](https://github.com/user-attachments/assets/67ad342a-48e4-4c19-a6d3-7d719020d45f)
 
-*Figure 2. Distribution of Gender in the Dataset: 52.3% Male, 47.7% Female* 
+*Figure 2. Distribution of Gender in the Dataset: 52.3% Male (0), 47.7% Female (1)* 
 
 ### Image Preprocessing
 To ensure consistent input to the model, the images were split into smaller chunks of 200x200 pixels to improve model performance and reduce computational load.
