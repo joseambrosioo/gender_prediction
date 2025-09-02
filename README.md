@@ -1,4 +1,4 @@
-# Gender Classification Using Convolutional Neural Networks (CNN)
+# Gender Recognition Using Convolutional Neural Networks (CNN)
 
 This project was proudly presented at the **2024 Kansas Capitol Graduate Research Summit**, earning recognition from the **State of Kansas**, the **Kansas Governor**, policymakers, and **Fort Hays State University** for its significant contribution to research and innovation.
 
