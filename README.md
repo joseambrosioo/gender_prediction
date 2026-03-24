@@ -2,6 +2,10 @@
 
 This project was proudly presented at the **2024 Kansas Capitol Graduate Research Summit**, earning recognition from the **State of Kansas**, the **Kansas Governor**, policymakers, and **Fort Hays State University** for its significant contribution to research and innovation.
 
+**Author:** José Ambrósio
+
+**Abstract:** This research evaluates the efficacy of Convolutional Neural Networks (CNNs) in identifying gender-based biological markers from facial imagery. This notebook demonstrates the end-to-end pipeline, including data augmentation strategies to reduce bias, the implementation of a multi-layer CNN architecture, and the evaluation of model performance using confusion matrices and precision-recall metrics. This work serves as the technical foundation for my current research into high-accuracy, clinical-grade AI systems at Zayi Labs.
+
 ## Project Overview
 Developed a **Convolutional Neural Network (CNN)** to classify a person's gender from facial images, achieving an impressive **91% validation accuracy** using a dataset of over **23,000 images**. The CNN model was trained to recognize and distinguish between male and female faces with high precision, and the results were validated against a separate test set.
 
